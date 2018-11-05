@@ -1,0 +1,7 @@
+﻿  pch.cpp
+  Lab_2_OS.cpp
+e:\учеба\ос\lab_2\lab_2_os\lab_2_os\lab_2_os\lab_2_os.cpp(86): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  Generating code
+  All 240 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Lab_2_OS.vcxproj -> E:\учеба\ОС\Lab_2\Lab_2_OS\Lab_2_OS\Release\Lab_2_OS.exe
