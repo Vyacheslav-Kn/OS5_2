@@ -35,10 +35,15 @@ namespace SmartPointer
 		}
 
 		ref_count_data release_shared_ref(){
-			WaitForSingleObject(mutex, INFINITE);
+			//WaitForSingleObject(mutex, INFINITE);
 			//ref_counts.use_count--;
-			ReleaseMutex(mutex);
+			//ReleaseMutex(mutex);
 			return ref_counts;
+		}
+
+		~reference_count() {
+			//ReleaseMutex(mutex);
+			//CloseHandle(mutex);
 		}
 	};
 
@@ -52,13 +57,13 @@ namespace SmartPointer
 		SafeSmartPointer() : pdata(NULL), rc(NULL) {} 
 		reference_count* rc; 
 
-		SafeSmartPointer(T* pvalue) : pdata(pvalue), rc(NULL){
+		SafeSmartPointer(T* pvalue) : pdata(pvalue){
 			if (NULL != pdata){
 				rc = new reference_count();
 			}
 		}
 		
-		SafeSmartPointer(const SafeSmartPointer<T>& sp) : pdata(NULL), rc(sp.rc){
+		/*SafeSmartPointer(const SafeSmartPointer<T>& sp) : pdata(NULL), rc(sp.rc){
 			if (NULL != rc){
 				pdata = static_cast<T*>(rc->get_shared_ref(sp.pdata));
 
@@ -66,20 +71,29 @@ namespace SmartPointer
 					rc = NULL;
 				}
 			}
-		}
+		}*/
 
 		~SafeSmartPointer()
 		{
 			if (NULL != rc){
-				ref_count_data updated_counts = rc->release_shared_ref();
+				//CloseHandle(rc->mutex);
+				//ref_count_data updated_counts = rc->release_shared_ref();
+				//rc->~reference_count();
+				//delete rc;
+				//rc = NULL;
+				//delete pdata;
 			}
 		}
 
 		T& operator* () const{
+			WaitForSingleObject(rc->mutex, INFINITE);
+			ReleaseMutex(rc->mutex);
 			return *pdata;
 		}
 
-		T* operator-> () const{			
+		T* operator-> () const{		
+			WaitForSingleObject(rc->mutex, INFINITE);
+			ReleaseMutex(rc->mutex);
 			return pdata;
 		}
 		
