@@ -1,5 +1,20 @@
-0:23:5:307 [INFO] Data is calculate:  x =  0, y = 0
-0:23:5:309 [INFO] Data is calculate:  x =  1, y = 1
-0:23:5:309 [INFO] Data is calculate:  x =  2, y = 4
-0:23:5:310 [INFO] Data is calculate:  x =  3, y = 9
-0:23:5:310 [INFO] Data is calculate:  x =  4, y = 16
+21:42:1:418 [INFO] Data is calculate:  x =  0, y = 0
+21:42:1:420 [INFO] Data is written to file:  x =  0, y = 0
+21:42:1:423 [INFO] Start time 21:42:1:418
+21:42:1:423 [INFO] End time 21:42:1:420
+21:42:1:424 [INFO] Data is calculate:  x =  1, y = 1
+21:42:1:426 [INFO] Data is written to file:  x =  1, y = 1
+21:42:1:427 [INFO] Start time 21:42:1:424
+21:42:1:427 [INFO] End time 21:42:1:426
+21:42:1:428 [INFO] Data is calculate:  x =  2, y = 4
+21:42:1:429 [INFO] Data is written to file:  x =  2, y = 4
+21:42:1:430 [INFO] Start time 21:42:1:428
+21:42:1:430 [INFO] End time 21:42:1:429
+21:42:1:431 [INFO] Data is calculate:  x =  3, y = 9
+21:42:1:433 [INFO] Data is written to file:  x =  3, y = 9
+21:42:1:435 [INFO] Start time 21:42:1:431
+21:42:1:435 [INFO] End time 21:42:1:433
+21:42:1:438 [INFO] Data is calculate:  x =  4, y = 16
+21:42:1:439 [INFO] Data is written to file:  x =  4, y = 16
+21:42:1:440 [INFO] Start time 21:42:1:438
+21:42:1:440 [INFO] End time 21:42:1:439

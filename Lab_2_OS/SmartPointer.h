@@ -40,11 +40,6 @@ namespace SmartPointer
 			//ReleaseMutex(mutex);
 			return ref_counts;
 		}
-
-		~reference_count() {
-			//ReleaseMutex(mutex);
-			//CloseHandle(mutex);
-		}
 	};
 
 	template <typename T>
