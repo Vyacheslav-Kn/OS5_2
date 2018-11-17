@@ -43,9 +43,10 @@ namespace SmartPointer
 		}
 
 		T& operator* (){
+			refreshMutexToSignalState();
+			WaitForSingleObject(mutex, INFINITE);
+
 			if (numberOfReferences == 1) {
-				refreshMutexToSignalState();
-				WaitForSingleObject(mutex, INFINITE);
 				ReleaseMutex(mutex);
 				return *data;
 			}
@@ -55,9 +56,10 @@ namespace SmartPointer
 		}
 
 		T* operator-> (){
+			refreshMutexToSignalState();
+			WaitForSingleObject(mutex, INFINITE);
+
 			if (numberOfReferences == 1) {
-				refreshMutexToSignalState();
-				WaitForSingleObject(mutex, INFINITE);
 				ReleaseMutex(mutex);
 				return data;
 			}
