@@ -1,20 +1,40 @@
-21:42:1:418 [INFO] Data is calculate:  x =  0, y = 0
-21:42:1:420 [INFO] Data is written to file:  x =  0, y = 0
-21:42:1:423 [INFO] Start time 21:42:1:418
-21:42:1:423 [INFO] End time 21:42:1:420
-21:42:1:424 [INFO] Data is calculate:  x =  1, y = 1
-21:42:1:426 [INFO] Data is written to file:  x =  1, y = 1
-21:42:1:427 [INFO] Start time 21:42:1:424
-21:42:1:427 [INFO] End time 21:42:1:426
-21:42:1:428 [INFO] Data is calculate:  x =  2, y = 4
-21:42:1:429 [INFO] Data is written to file:  x =  2, y = 4
-21:42:1:430 [INFO] Start time 21:42:1:428
-21:42:1:430 [INFO] End time 21:42:1:429
-21:42:1:431 [INFO] Data is calculate:  x =  3, y = 9
-21:42:1:433 [INFO] Data is written to file:  x =  3, y = 9
-21:42:1:435 [INFO] Start time 21:42:1:431
-21:42:1:435 [INFO] End time 21:42:1:433
-21:42:1:438 [INFO] Data is calculate:  x =  4, y = 16
-21:42:1:439 [INFO] Data is written to file:  x =  4, y = 16
-21:42:1:440 [INFO] Start time 21:42:1:438
-21:42:1:440 [INFO] End time 21:42:1:439
+19:41:22:46 [INFO] Data is calculate:  x =  0, y = 0
+19:41:22:49 [INFO] Data is written to file:  x =  0, y = 0
+19:41:22:51 [INFO] Start time 19:41:22:46
+19:41:22:51 [INFO] End time 19:41:22:49
+19:41:22:51 [INFO] Data is calculate:  x =  1, y = 1
+19:41:22:52 [INFO] Data is written to file:  x =  1, y = 1
+19:41:22:52 [INFO] Start time 19:41:22:51
+19:41:22:52 [INFO] End time 19:41:22:52
+19:41:22:53 [INFO] Data is calculate:  x =  2, y = 4
+19:41:22:54 [INFO] Data is written to file:  x =  2, y = 4
+19:41:22:54 [INFO] Start time 19:41:22:53
+19:41:22:54 [INFO] End time 19:41:22:54
+19:41:22:55 [INFO] Data is calculate:  x =  3, y = 9
+19:41:22:55 [INFO] Data is written to file:  x =  3, y = 9
+19:41:22:55 [INFO] Start time 19:41:22:55
+19:41:22:55 [INFO] End time 19:41:22:55
+19:41:22:56 [INFO] Data is calculate:  x =  4, y = 16
+19:41:22:57 [INFO] Data is written to file:  x =  4, y = 16
+19:41:22:57 [INFO] Start time 19:41:22:56
+19:41:22:57 [INFO] End time 19:41:22:57
+19:41:22:58 [INFO] Data is calculate:  x =  5, y = 25
+19:41:22:58 [INFO] Data is written to file:  x =  5, y = 25
+19:41:22:59 [INFO] Start time 19:41:22:58
+19:41:22:59 [INFO] End time 19:41:22:58
+19:41:22:59 [INFO] Data is calculate:  x =  6, y = 36
+19:41:22:62 [INFO] Data is written to file:  x =  6, y = 36
+19:41:22:67 [INFO] Start time 19:41:22:59
+19:41:22:67 [INFO] End time 19:41:22:62
+19:41:22:70 [INFO] Data is calculate:  x =  7, y = 49
+19:41:22:71 [INFO] Data is written to file:  x =  7, y = 49
+19:41:22:72 [INFO] Start time 19:41:22:70
+19:41:22:72 [INFO] End time 19:41:22:71
+19:41:22:74 [INFO] Data is calculate:  x =  8, y = 64
+19:41:22:75 [INFO] Data is written to file:  x =  8, y = 64
+19:41:22:76 [INFO] Start time 19:41:22:74
+19:41:22:76 [INFO] End time 19:41:22:75
+19:41:22:78 [INFO] Data is calculate:  x =  9, y = 81
+19:41:22:81 [INFO] Data is written to file:  x =  9, y = 81
+19:41:22:83 [INFO] Start time 19:41:22:78
+19:41:22:83 [INFO] End time 19:41:22:81
