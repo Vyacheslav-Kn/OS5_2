@@ -6,7 +6,8 @@ namespace SmartPointer
 	class SafeSmartPointer
 	{
 	private:
-		T* data;            
+		T* data;
+		HANDLE mutex;
 		int numberOfReferences;
 		const LPCWSTR mutexName = L"Mutex_Name";
 
@@ -26,7 +27,6 @@ namespace SmartPointer
 		}
 
 	public:
-		HANDLE mutex;
 		SafeSmartPointer() : data(NULL), numberOfReferences(0), mutex(NULL) {} 
 
 		SafeSmartPointer(T* value){
