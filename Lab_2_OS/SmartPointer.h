@@ -8,7 +8,6 @@ namespace SmartPointer
 	private:
 		T* data;            
 		int numberOfReferences;
-		HANDLE mutex;
 		const LPCWSTR mutexName = L"Mutex_Name";
 
 		T* getPointer(T* data)
@@ -27,6 +26,7 @@ namespace SmartPointer
 		}
 
 	public:
+		HANDLE mutex;
 		SafeSmartPointer() : data(NULL), numberOfReferences(0), mutex(NULL) {} 
 
 		SafeSmartPointer(T* value){
@@ -38,30 +38,20 @@ namespace SmartPointer
 			}
 		}
 
-		T& operator* (){
-			mutex = OpenMutex(NULL, FALSE, mutexName);
+		void CloseAccessToAnotherThreads() {
 			WaitForSingleObject(mutex, INFINITE);
+		}
 
-			if (numberOfReferences == 1) {
-				ReleaseMutex(mutex);
-				return *data;
-			}
-
+		void OpenAccessToAnotherThreads() {
 			ReleaseMutex(mutex);
-			return NULL;
+		}
+
+		T& operator* (){
+			return *data;
 		}
 
 		T* operator-> (){
-			mutex = OpenMutex(NULL, FALSE, mutexName);
-			WaitForSingleObject(mutex, INFINITE);
-
-			if (numberOfReferences == 1) {
-				ReleaseMutex(mutex);
-				return data;
-			}
-
-			ReleaseMutex(mutex);
-			return NULL;
+			return data;
 		}
 
 		~SafeSmartPointer() {
