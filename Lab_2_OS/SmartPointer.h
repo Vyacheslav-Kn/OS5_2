@@ -38,19 +38,15 @@ namespace SmartPointer
 			}
 		}
 
-		void CloseAccessToAnotherThreads() {
-			WaitForSingleObject(mutex, INFINITE);
-		}
-
-		void OpenAccessToAnotherThreads() {
-			ReleaseMutex(mutex);
-		}
-
 		T& operator* (){
+			WaitForSingleObject(mutex, INFINITE);
+			ReleaseMutex(mutex);
 			return *data;
 		}
 
 		T* operator-> (){
+			WaitForSingleObject(mutex, INFINITE);
+			ReleaseMutex(mutex);
 			return data;
 		}
 
