@@ -27,24 +27,24 @@ namespace SmartPointer
 		}
 
 	public:
-		SafeSmartPointer() : data(NULL), numberOfReferences(0), mutex(NULL) {} 
+		SafeSmartPointer() : data(NULL), numberOfReferences(0), mutex(NULL) {}
 
-		SafeSmartPointer(T* value){
+		SafeSmartPointer(T* value) {
 			numberOfReferences = 0;
 			mutex = NULL;
-			if (value != NULL){
+			if (value != NULL) {
 				mutex = CreateMutex(NULL, FALSE, mutexName);
 				data = getPointer(value);
 			}
 		}
 
-		T& operator* (){
+		T& operator* () {
 			WaitForSingleObject(mutex, INFINITE);
 			ReleaseMutex(mutex);
 			return *data;
 		}
 
-		T* operator-> (){
+		T* operator-> () {
 			WaitForSingleObject(mutex, INFINITE);
 			ReleaseMutex(mutex);
 			return data;
@@ -55,6 +55,6 @@ namespace SmartPointer
 			ReleaseMutex(mutex);
 			CloseHandle(mutex);
 		}
-		
+
 	};
 }

@@ -1,40 +1,40 @@
-23:19:31:749 [INFO] Data is calculate:  x =  0, y = 0
-23:19:31:749 [INFO] Data is written to file:  x =  0, y = 0
-23:19:31:750 [INFO] Start time counting x = 0 y = 0 : 23:19:31:749
-23:19:31:750 [INFO] End time writing 23:19:31:749
-23:19:31:751 [INFO] Data is calculate:  x =  1, y = 1
-23:19:31:751 [INFO] Data is written to file:  x =  1, y = 1
-23:19:31:751 [INFO] Start time counting x = 1 y = 1 : 23:19:31:751
-23:19:31:751 [INFO] End time writing 23:19:31:751
-23:19:31:752 [INFO] Data is calculate:  x =  2, y = 4
-23:19:31:752 [INFO] Data is written to file:  x =  2, y = 4
-23:19:31:753 [INFO] Start time counting x = 2 y = 4 : 23:19:31:752
-23:19:31:753 [INFO] End time writing 23:19:31:752
-23:19:31:754 [INFO] Data is calculate:  x =  3, y = 9
-23:19:31:754 [INFO] Data is written to file:  x =  3, y = 9
-23:19:31:754 [INFO] Start time counting x = 3 y = 9 : 23:19:31:754
-23:19:31:754 [INFO] End time writing 23:19:31:754
-23:19:31:755 [INFO] Data is calculate:  x =  4, y = 16
-23:19:31:755 [INFO] Data is written to file:  x =  4, y = 16
-23:19:31:756 [INFO] Start time counting x = 4 y = 16 : 23:19:31:755
-23:19:31:756 [INFO] End time writing 23:19:31:755
-23:19:31:757 [INFO] Data is calculate:  x =  5, y = 25
-23:19:31:757 [INFO] Data is written to file:  x =  5, y = 25
-23:19:31:758 [INFO] Start time counting x = 5 y = 25 : 23:19:31:757
-23:19:31:758 [INFO] End time writing 23:19:31:757
-23:19:31:760 [INFO] Data is calculate:  x =  6, y = 36
-23:19:31:760 [INFO] Data is written to file:  x =  6, y = 36
-23:19:31:763 [INFO] Start time counting x = 6 y = 36 : 23:19:31:760
-23:19:31:763 [INFO] End time writing 23:19:31:760
-23:19:31:769 [INFO] Data is calculate:  x =  7, y = 49
-23:19:31:769 [INFO] Data is written to file:  x =  7, y = 49
-23:19:31:774 [INFO] Start time counting x = 7 y = 49 : 23:19:31:769
-23:19:31:774 [INFO] End time writing 23:19:31:769
-23:19:31:776 [INFO] Data is calculate:  x =  8, y = 64
-23:19:31:776 [INFO] Data is written to file:  x =  8, y = 64
-23:19:31:778 [INFO] Start time counting x = 8 y = 64 : 23:19:31:776
-23:19:31:778 [INFO] End time writing 23:19:31:776
-23:19:31:780 [INFO] Data is calculate:  x =  9, y = 81
-23:19:31:780 [INFO] Data is written to file:  x =  9, y = 81
-23:19:31:782 [INFO] Start time counting x = 9 y = 81 : 23:19:31:780
-23:19:31:782 [INFO] End time writing 23:19:31:780
+19:19:37:605 [INFO] Data is calculate:  x =  0, y = 0
+19:19:37:605 [INFO] Data is written to file:  x =  0, y = 0
+19:19:37:606 [INFO] Start time counting x = 0 y = 0 : 19:19:37:605
+19:19:37:606 [INFO] End time writing 19:19:37:605
+19:19:37:606 [INFO] Data is calculate:  x =  1, y = 1
+19:19:37:606 [INFO] Data is written to file:  x =  1, y = 1
+19:19:37:607 [INFO] Start time counting x = 1 y = 1 : 19:19:37:606
+19:19:37:607 [INFO] End time writing 19:19:37:606
+19:19:37:607 [INFO] Data is calculate:  x =  2, y = 4
+19:19:37:607 [INFO] Data is written to file:  x =  2, y = 4
+19:19:37:607 [INFO] Start time counting x = 2 y = 4 : 19:19:37:607
+19:19:37:607 [INFO] End time writing 19:19:37:607
+19:19:37:608 [INFO] Data is calculate:  x =  3, y = 9
+19:19:37:608 [INFO] Data is written to file:  x =  3, y = 9
+19:19:37:608 [INFO] Start time counting x = 3 y = 9 : 19:19:37:608
+19:19:37:608 [INFO] End time writing 19:19:37:608
+19:19:37:609 [INFO] Data is calculate:  x =  4, y = 16
+19:19:37:609 [INFO] Data is written to file:  x =  4, y = 16
+19:19:37:609 [INFO] Start time counting x = 4 y = 16 : 19:19:37:609
+19:19:37:609 [INFO] End time writing 19:19:37:609
+19:19:37:609 [INFO] Data is calculate:  x =  5, y = 25
+19:19:37:610 [INFO] Data is written to file:  x =  5, y = 25
+19:19:37:610 [INFO] Start time counting x = 5 y = 25 : 19:19:37:609
+19:19:37:610 [INFO] End time writing 19:19:37:610
+19:19:37:610 [INFO] Data is calculate:  x =  6, y = 36
+19:19:37:611 [INFO] Data is written to file:  x =  6, y = 36
+19:19:37:611 [INFO] Start time counting x = 6 y = 36 : 19:19:37:610
+19:19:37:611 [INFO] End time writing 19:19:37:611
+19:19:37:612 [INFO] Data is calculate:  x =  7, y = 49
+19:19:37:612 [INFO] Data is written to file:  x =  7, y = 49
+19:19:37:613 [INFO] Start time counting x = 7 y = 49 : 19:19:37:612
+19:19:37:613 [INFO] End time writing 19:19:37:612
+19:19:37:613 [INFO] Data is calculate:  x =  8, y = 64
+19:19:37:614 [INFO] Data is written to file:  x =  8, y = 64
+19:19:37:614 [INFO] Start time counting x = 8 y = 64 : 19:19:37:613
+19:19:37:614 [INFO] End time writing 19:19:37:614
+19:19:37:615 [INFO] Data is calculate:  x =  9, y = 81
+19:19:37:616 [INFO] Data is written to file:  x =  9, y = 81
+19:19:37:616 [INFO] Start time counting x = 9 y = 81 : 19:19:37:615
+19:19:37:616 [INFO] End time writing 19:19:37:616
